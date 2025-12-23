@@ -50,17 +50,9 @@ Model eğitimi sonucunda test verisi üzerinde elde edilen başarı metrikleri �
 
 | Metrik | Değer | Açıklama |
 | :--- | :--- | :--- |
-| **R² (R-Squared)** | **0.97+** | Model, verideki değişimin %97'sini açıklayabilmektedir. (Çok Yüksek Başarı) |
+| **R² (R-Squared)** | **0.97+** | Model, verideki değişimin %97'sini açıklayabilmektedir.  |
 | **MAE** | Düşük | Ortalama Mutlak Hata, kabul edilebilir seviyededir. |
 | **MSE** | Düşük | Hata Kareler Ortalaması optimize edilmiştir. |
 
 ---
 
-### 🚀 4. Kurulum ve Çalıştırma
-
-Projeyi kendi bilgisayarınızda çalıştırmak için adımları takip edin:
-
-**Adım 1: Gerekli Kütüphaneleri Yükleyin**
-Terminale şu kodu yapıştırın:
-```bash
-pip install flask pandas numpy scikit-learn statsmodels
